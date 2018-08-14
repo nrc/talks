@@ -14,7 +14,7 @@ TODO each exercise should have a bonus question and an easy question
 Write the following functions as succinctly as you can (you'll want to check the
 [std docs](https://doc.rust-lang.org/std/index.html)):
 
-TODO compiling version
+[Playground](https://play.rust-lang.org/?gist=49e62fcba1adfdbe2107fcf20a997b1b&version=nightly&mode=debug&edition=2018)
 
 ```rust
 fn foo(input: Option<i32>) -> Option<i32> {
@@ -36,9 +36,15 @@ fn bar(input: Option<i32>) -> Result<i32, ErrNegative> {
     }
 }
 
-// These are just to make the program compile.
+#[derive(Debug)]
 struct ErrNegative;
-fn main() {}
+
+fn main() {
+    println!("{:?}", foo(Some(0)));
+    println!("{:?}", foo(None));
+    println!("{:?}", bar(Some(42)));
+    println!("{:?}", bar(None));
+}
 ```
 
 ## Exercise 3 (iteration)
@@ -46,12 +52,16 @@ fn main() {}
 Lower the following program to a simpler one without `while let` by using `loop`,
 `match`, and `break`.
 
-```rust
-let vec = vec![0, 1, 2, 3];
+[Playground](https://play.rust-lang.org/?gist=5ae0ae4d5fdad1a90fc49c8b91885507&version=nightly&mode=debug&edition=2018)
 
-let mut iter = (&vec).into_iter();
-while let Some(v) = iter.next() {
-    println!(“{}”, v);
+```rust
+fn main() {
+    let vec = vec![0, 1, 2, 3];
+
+    let mut iter = (&vec).into_iter();
+    while let Some(v) = iter.next() {
+        println!("{}", v);
+    }
 }
 ```
 
@@ -61,7 +71,7 @@ while let Some(v) = iter.next() {
 Convert the first three functions to an error handling strategy, rather than
 a panicking strategy.
 
-TODO check compiles
+[Playground](https://play.rust-lang.org/?gist=fa7f507c00a7f720676e1d7a24076de3&version=nightly&mode=debug&edition=2018)
 
 ```rust
 // Remove the `expect`s from these two functions
@@ -83,26 +93,32 @@ impl Server {
 fn main() {
     let server = Server::new();
     let server = server.startup();
-    while let Some(packet) = server.listen() {
+    while let Some(_packet) = server.listen() {
         // ...
     }
 }
 
 // Helper functions and types, don't change these
 fn write_to_log() -> Result<(), DiskError> { Ok(()) }
-fn open_port() -> Result<Port, NetworkError> { Port }
+fn open_port() -> Result<Port, NetworkError> { Ok(Port) }
 fn read_file() -> Result<ConfigFile, DiskError> { Ok(ConfigFile) }
 
 struct Server;
 struct Port;
+#[derive(Debug)]
 struct DiskError;
+#[derive(Debug)]
 struct NetworkError;
 struct ConfigFile;
 struct ListeningServer;
 
 impl Server {
     fn new() -> Server { Server }
-    fn configure(self) -> ListeningServer { ListeningServer }
+    fn configure(self, _c: ConfigFile, _p: Port) -> ListeningServer { ListeningServer }
+}
+
+impl ListeningServer {
+    fn listen(&self) -> Option<()> { None }
 }
 ```
 
