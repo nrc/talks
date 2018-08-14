@@ -153,3 +153,12 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 ```
+
+## Exercise 6 (abstraction with traits)
+
+Find a crate (your own or somebody else's) and see if you can find a place where
+you can refactor concrete types using traits.
+
+Does the code look better?
+
+Is the code more extensible or testable?
