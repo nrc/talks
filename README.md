@@ -18,9 +18,9 @@ This repo collects information, resources, and links for Nick Cameron (nrc)'s Ru
 
 # My contact details
 
-* GitHub: [nrc]()
-* Twitter: [nick_r_cameron]()
-* nrc on [Rust's Discord]()
-* nrc on [irc]()
+* GitHub: [nrc](https://github.com/nrc)
+* Twitter: [nick_r_cameron](https://twitter.com/nick_r_cameron)
+* nrc on [Rust's Discord](https://discordapp.com/invite/rust-lang)
+* nrc on [irc](irc.mozilla.org)
 * email - my usual handle at mozilla.com
-* [blog]()
+* [blog](https://ncameron.org/blog/)
