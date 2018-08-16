@@ -1,7 +1,5 @@
 # Exercises
 
-TODO each exercise should have a bonus question and an easy question
-
 ## Exercise 1 (understanding ownership)
 
 * Why don't Box (or other owning types) need a lifetime parameter?
@@ -122,39 +120,8 @@ impl ListeningServer {
 }
 ```
 
-## Exercise 5 (design using ownership)
 
-Rewrite the following in Rust, paying attention to ownership in the design.
-
-TODO extra instructions
-
-```c
-struct SlabAllocator {
-    unsigned char* data_start;
-    int data_len;
-    unsigned char* next;
-}
-
-*unsigned char allocate(SlabAllocator* slab, int bytes) { /* ... */ }
-
-void deallocate(SlabAllocator* slab,
-                unsigned char* data,
-                int len)
-{ /* ... */ }
-
-void destroy(SlabAllocator* slab) { /* ... */ }
-
-int main(int argc, char* argv[]) {
-    SlabAllocator alloc = { /* ... */ };
-    *unsigned char buf = allocate(&alloc, 64);
-    // ...
-    deallocate(&alloc, buf, 64);
-    destroy(&alloc);
-    return 0;
-}
-```
-
-## Exercise 6 (abstraction with traits)
+## Exercise 5 (abstraction with traits)
 
 Find a crate (your own or somebody else's) and see if you can find a place where
 you can refactor concrete types using traits.
