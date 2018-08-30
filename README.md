@@ -7,7 +7,7 @@ This repo collects information, resources, and links for Nick Cameron (nrc)'s Ru
 
 * slides: [keynote](rustconf-2018-pub.key), [pdf](rustconf-2018-pub.pdf)
 * [exercises](exercises.md)
-* exercises with solutions (check back apx 1 week after the training)
+* [solutions](solutions.md)
 
 ## Links
 
