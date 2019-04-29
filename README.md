@@ -5,9 +5,9 @@ This repo collects information, resources, and links for Nick Cameron (nrc)'s Ru
 
 **Rustconf 2018 training**
 
-* slides: [keynote](rustconf-2018-pub.key), [pdf](rustconf-2018-pub.pdf)
-* [exercises](exercises.md)
-* [solutions](solutions.md)
+* slides: [keynote](rustconf18/rustconf-2018-pub.key), [pdf](rustconf18/rustconf-2018-pub.pdf)
+* [exercises](rustconf18/exercises.md)
+* [solutions](rustconf18/solutions.md)
 
 ## Links
 
@@ -24,6 +24,5 @@ This repo collects information, resources, and links for Nick Cameron (nrc)'s Ru
 * GitHub: [nrc](https://github.com/nrc)
 * Twitter: [nick_r_cameron](https://twitter.com/nick_r_cameron)
 * nrc on [Rust's Discord](https://discordapp.com/invite/rust-lang)
-* nrc on [irc](irc.mozilla.org)
-* email - my usual handle at mozilla.com
 * [blog](https://ncameron.org/blog/)
+* WeChat: nrc@PingCAP (I'm in 'Rust China Community' among other channels)
