@@ -2,7 +2,9 @@ This repo collects information, resources, and links for Nick Cameron (nrc)'s ta
 
 # RustCon Asia 2019
 
-[Conference website](TODO)
+[Conference website](https://rustcon.asia/)
+
+Videos coming soon.
 
 ## Making Rust delightful
 
@@ -22,7 +24,7 @@ See below (Rustconf 2018) for links.
 
 # Rustconf 2018 training - how to think in Rust
 
-[Conference website](TODO)
+[Conference website](https://rustconf.com/)
 
 * slides: [keynote](rustconf18/rustconf-2018-pub.key), [pdf](rustconf18/rustconf-2018-pub.pdf)
 * [exercises](rustconf18/exercises.md)
@@ -40,11 +42,16 @@ See below (Rustconf 2018) for links.
 
 # LinuxConf Australia 2018
 
-[Conference website](TODO)
+[Conference website](https://linux.conf.au/)
 
-Workshop: TODO name [video](TODO)
+Workshop: Rust Programming Techniques name [video](https://www.youtube.com/watch?v=vqavdUGKeb4)
 
-TODO more videos of talks
+
+# Other talks
+
+* [Design patterns in Rust](https://www.youtube.com/watch?v=Pm_oO0N5B9k), Portland meetup, 2016
+* [Makling Tools for Rust](https://www.youtube.com/watch?v=0ttt8aREC7Q), RustCamp, 2015
+
 
 # Contact details
 
