@@ -4,15 +4,15 @@ This repo collects information, resources, and links for Nick Cameron (nrc)'s ta
 
 [Conference website](https://rustcon.asia/)
 
-Videos coming soon.
-
 ## Making Rust delightful
 
-Slides: [pdf](rustcon-asia-19/making-rust-delightful.pdf)
+* [Video](https://www.youtube.com/watch?v=YSEx8wtlPWc)
+* Slides: [pdf](rustcon-asia-19/making-rust-delightful.pdf)
 
 ## Closing talk: words from the core team
 
-Slides: [pdf](rustcon-asia-19/words-from-the-core-team.pdf)
+* [Video](https://www.youtube.com/watch?v=xC0SaWCEsRw)
+* Slides: [pdf](rustcon-asia-19/words-from-the-core-team.pdf)
 
 ## Workshop: how to think in Rust
 
