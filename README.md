@@ -1,5 +1,12 @@
 This repo collects information, resources, and links for Nick Cameron (nrc)'s talks.
 
+# Rust Linz virtual meetup
+
+April, 2022.
+
+* Recording: [YouTube](https://www.youtube.com/watch?v=jxxLQsxJve8)
+* Slides: [pdf](rust-linz-22/rust-linz-22.pdf)
+
 # RustCon Asia 2019
 
 [Conference website](https://rustcon.asia/)
