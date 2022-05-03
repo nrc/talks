@@ -2,10 +2,16 @@ This repo collects information, resources, and links for Nick Cameron (nrc)'s ta
 
 # Rust Linz virtual meetup
 
-April, 2022.
+Async Rust, Interoperability and Portability. April, 2022.
 
 * Recording: [YouTube](https://www.youtube.com/watch?v=jxxLQsxJve8)
 * Slides: [pdf](rust-linz-22/rust-linz-22.pdf)
+
+# Software Innovation NZ Seminar Series
+
+Rust, A Revolutionary Systems Programming Language. July 2021.
+
+* Slides: [keynote](sinz-21/sinz-21.key)
 
 # RustCon Asia 2019
 
