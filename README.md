@@ -1,5 +1,19 @@
 This repo collects information, resources, and links for Nick Cameron (nrc)'s talks.
 
+# Rustconf 2024
+
+Eternal Sunshine of the Rustfmt'ed Mind. September, 2024.
+
+* Recording: to come
+* Slides: [pdf](rustconf24/slides.pdf)
+
+# UA Rust 2024
+
+Iterate! Faster! July 2024.
+
+* Recording: to come
+* Slides: [pdf](uarust24/slides.pdf)
+
 # Rust Linz virtual meetup
 
 Async Rust, Interoperability and Portability. April, 2022.
@@ -19,7 +33,7 @@ Rust, A Revolutionary Systems Programming Language. July 2021.
 
 ## Making Rust delightful
 
-* [Video](https://www.youtube.com/watch?v=YSEx8wtlPWc)
+* Recording: [YouTube](https://www.youtube.com/watch?v=YSEx8wtlPWc)
 * Slides: [pdf](rustcon-asia-19/making-rust-delightful.pdf)
 
 ## Closing talk: words from the core team
@@ -68,8 +82,6 @@ Workshop: Rust Programming Techniques name [video](https://www.youtube.com/watch
 
 # Contact details
 
-* GitHub: [nrc](https://github.com/nrc)
-* Twitter: [nick_r_cameron](https://twitter.com/nick_r_cameron)
-* nrc on [Rust's Discord](https://discordapp.com/invite/rust-lang)
-* [blog](https://ncameron.org/blog/)
-* WeChat: nrc@PingCAP (I'm in 'Rust China Community' among other channels)
+* [website](https://www.ncameron.org)
+* [blog](https://www.ncameron.org/blog/)
+
