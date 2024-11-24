@@ -4,7 +4,7 @@ This repo collects information, resources, and links for Nick Cameron (nrc)'s ta
 
 Eternal Sunshine of the Rustfmt'ed Mind. September, 2024.
 
-* Recording: to come
+* Recording: https://www.youtube.com/watch?v=83CoPbrvvKE
 * Slides: [pdf](rustconf24/slides.pdf)
 
 # UA Rust 2024
